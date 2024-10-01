@@ -1,0 +1,19 @@
+create the account https://registry.terraform.io/browse/modules?provider=aws(at present connect via my github account)
+https://github.com/asquarezone/TerraformZone/blob/master/Sep24/using_community_modules/main.tf
+
+on the terminal
+ terraform init
+ terraform fmt
+ terraform validate
+ terraform apply 
+ terraform console 
+    > module.vpc  (enter)
+    > exit
+ terraform destroy
+
+ git status
+ git add . 
+ git commit -m "added changes"
+ git push origin main
+ sync
+
