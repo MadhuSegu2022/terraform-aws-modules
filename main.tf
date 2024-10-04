@@ -1,4 +1,5 @@
-# create a vpc with 4 subnets
+# added spaces to add into github
+# create a vpc with 4 subnets 
 module "vpc" {
   source               = "terraform-aws-modules/vpc/aws"
   version              = "5.13.0"
